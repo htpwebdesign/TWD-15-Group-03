@@ -1,3 +1,67 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import "reset";
+@import "variabels";
+@import "css3-mixins";
+
+
+
+body {
+	
+        background-image: -webkit-repeating-linear-gradient(top, 
+	#ffff00 0%, #ffff00 20.00%, #fff200 20.00%, #fff200 30.00%, #ffe227 30.00%,
+	#ffe227 70.00%, #fff200 70.00%, #fff200 80.00%, #ffff00 80.00%, #ffff00 100%);	
+
+        background-image: repeating-linear-gradient(top, 
+	#ffff00 0%, #ffff00 20.00%, #fff200 20.00%, #fff200 30.00%, #ffe227 30.00%,
+	#ffe227 70.00%, #fff200 70.00%, #fff200 80.00%, #ffff00 80.00%, #ffff00 100%);
+	
+	height: 100%;
+
+}
+
+.wrapper{
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    overflow: auto;
+    padding: 30px;
+    background-color: #3b3b3b;
+    
+    .main-content {
+        float: left;
+        width: 953px / 1400px * 100%;
+        border: solid 1px #fcb801;
+        padding: 20px;
+    }
+    .aside {
+        float: right;
+        width: 447px / 1400px * 100%;
+        border: solid 1px #92ff71;
+        padding: 40px;
+    }
+    
+}
+
+.first-article > img{
+	max-width:100%;
+	height: auto;
+}
+
+.aside > img{
+	max-width:100%;
+	height: auto;
+}
+
+
+
+
+
+
+
