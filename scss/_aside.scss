@@ -1,0 +1,47 @@
+//............. aside here
+
+        .aside {   	        
+        	display: flex;
+        	flex-direction: column;
+        	border-left: solid 2px grey;
+        	padding:0 30px;
+        	width: 30%;
+        	align-content: flex-end;
+        	// margin-left: 20px;
+    	}
+
+.container{
+
+	.aside{
+		font-family: $font-stack-2;
+		font-style: italic;
+		font-weight: 800;
+		color:white;
+
+		p{
+			padding-bottom: 20px;
+			font-size: 19px;
+		}
+		
+		li{
+			margin-bottom: 23px;
+
+		}
+		a{
+			font-size: 24px;
+			text-decoration: none;
+			color: white;
+			line-height: 26px;
+
+
+			span{
+				color: #ffff00;
+			}
+		}		
+
+	}
+}
+
+
+
+//............. aside done

@@ -1,0 +1,64 @@
+// ..................header starts here
+
+header{
+	border-top: solid 8px $main-background;
+}
+
+.header-up{
+	background-color: $header-background;
+	display: flex;
+
+
+	.header-up-left{
+	margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding: 25px 50px;
+
+		p{
+			font-family: $font-stack-2;
+			font-size: 30px;
+			font-weight: 900;
+			padding-bottom: 10px;
+			color: lighten($header-background, 20);
+			text-shadow: $text-shadow-header;
+		}
+
+		h1{
+			font-family: $font-stack-1;
+			font-size: 90px;
+			color: white;
+			font-weight: bold;
+			text-shadow: $text-shadow-header;
+		}
+
+	}
+
+	.quote{
+		    height: auto;
+    		margin-right: 61px;
+    		margin-top: 42px;
+
+	 q{
+		width: 30%;
+		padding: 35px 40px;
+		font-family: $font-stack-2;
+		font-size: 35px;
+		color: white;
+		line-height: 32px;
+
+		span{
+			padding-left: 99px;
+		}
+	}
+
+	cite{
+			color: white;
+    text-align: right;
+    display: block;
+    margin-right: 30px;
+		}
+
+	 }
+
+}

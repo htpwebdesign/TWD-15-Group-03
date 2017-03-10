@@ -1,0 +1,20 @@
+//....................media query starts here
+
+@media only screen and (max-width: 800px){
+	
+	body {
+		background-image: none;
+		background-color: red;
+	}
+	
+
+	.container .main-content .article {
+			width: 100%;
+		}
+
+        .container .main-content .aside {   	        
+
+        	width: 100%;
+    	}
+
+}

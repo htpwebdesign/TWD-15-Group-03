@@ -1,0 +1,20 @@
+//....................body here
+
+body {
+	
+        background-image: -webkit-repeating-linear-gradient(top, 
+	#ffff00 0%, #ffff00 20.00%, #fff200 20.00%, #fff200 30.00%, #ffe227 30.00%,
+	#ffe227 70.00%, #fff200 70.00%, #fff200 80.00%, #ffff00 80.00%, #ffff00 100%);	
+
+        background-image: repeating-linear-gradient(top, 
+	#ffff00 0%, #ffff00 20.00%, #fff200 20.00%, #fff200 30.00%, #ffe227 30.00%,
+	#ffe227 70.00%, #fff200 70.00%, #fff200 80.00%, #ffff00 80.00%, #ffff00 100%);
+	
+	height: 100%;
+
+}
+
+img{
+	max-width:100%;
+	height: auto;
+	}

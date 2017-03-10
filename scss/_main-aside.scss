@@ -1,0 +1,139 @@
+
+//........................wrapper here
+.wrapper{
+	max-width: 1400px;
+	margin: 0 auto;
+	border-left: solid 8px white;
+	border-right: solid 8px white;
+}
+
+
+// ...............main and aside start here
+
+.container {
+	width: 100%;
+    height: auto;
+    overflow: auto;
+    padding: 30px;
+    background-color: #3b3b3b;
+    
+
+    .main-content {
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+
+		.article {
+			width: 70%;
+		}
+
+//............. aside here
+
+        .aside {   	        
+        	display: flex;
+        	flex-direction: column;
+        	border-left: solid 2px #fcb801;
+        	padding: 30px;
+        	width: 30%;
+    	}
+//............. aside done
+
+
+//............. article-01 starts here
+
+        .flex-font-01{
+        	display: flex;
+        	flex-wrap: wrap;
+        	font-family:$font-stack-2;
+        	font-size: 50px;
+        	color: $text-dark-blue-color;
+        }
+        
+        .flex-font-02{
+        	display: flex;
+        	flex-wrap: wrap;
+        	justify-content: flex-end;
+        	font-family:$font-stack-1;
+        	font-size: 70px;
+        	color: $text-orange-color;
+        	
+        }
+
+        .first-article p:nth-of-type(1){
+
+        	font-family:$font-stack-2;
+        	font-size: 30px;
+        	color: $text-dark-blue-color;
+        }
+        .first-article p:nth-of-type(2){
+
+        	font-family:$font-stack-2;
+        	font-size: 15px;
+        	color: $text-light-blue-color;
+        	padding: 10px 10px 10px 0;
+        }
+
+        .first-article p:nth-of-type(3){
+			
+			font-family:$font-stack-2;
+        	font-size: 15px;
+        	color: $text-white-color;
+        	line-height: 1.4;
+
+        }
+
+/*............end of article-01*/
+
+/*...............article-02*/
+
+        .second-article p:first-child{
+			font-family:$font-stack-1;
+        	font-size: 40px;
+        	color: $text-orange-color;
+        	padding: 10px 0 10px 0;
+
+
+        }
+
+        .second-article p span{
+			font-family:$font-stack-2;
+        	font-size: 38px;
+        	color: $text-yellow-color;
+        	padding-left: 5px;
+			
+
+        }
+
+        .second-article p:nth-of-type(2){
+			font-family:$font-stack-2;
+        	font-size: 30px;
+        	color: $text-dark-blue-color;
+
+        }
+
+   		.second-article p:nth-of-type(3){
+			font-family:$font-stack-2;
+        	font-size: 20px;
+        	color: $text-light-blue-color;
+        	padding: 15px 10px 15px 0;
+
+        }
+
+        .second-article p:last-child{
+			font-family:$font-stack-2;
+        	font-size: 15px;
+        	color: $text-white-color;
+        	line-height: 1.4;
+
+        }
+        /*end of article-02*/
+
+    }
+
+
+ }
+
+ /*end of main.........*/
+
+
