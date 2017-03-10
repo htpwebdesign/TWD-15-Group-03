@@ -6,12 +6,6 @@
 @import "css3-mixins";
 
 
-img {
-
-	width: 100%;
-	height: auto;
-}
-
 
 body {
 	
@@ -28,13 +22,14 @@ body {
 }
 
 .wrapper{
-	width: 1400px;
+	max-width: 1400px;
 	margin: 0 auto;
+	border-left: solid 8px white;
+	border-right: solid 8px white;
+	// border-top: inset solid 4px black;
 }
 
 .container {
-	display:flex;
-	flex-wrap: wrap;
 	width: 100%;
     height: auto;
     border: 1px solid #000;
@@ -43,138 +38,21 @@ body {
     background-color: #3b3b3b;
     
     .main-content {
-        /*float: left;*/
+        float: left;
         width: 953px / 1400px * 100%;
         border: solid 1px #fcb801;
         padding: 20px;
-        /*.first-article p:first-child*/
-        .flex-font-01{
-        	display: flex;
-        	flex-wrap: wrap;
-        	font-family:$font-stack-2;
-        	font-size: 50px;
-        	color: $text-dark-blue-color;
-        }
-        /*.first-article p:nth-child(2n)*/
-        .flex-font-02{
-        	display: flex;
-        	flex-wrap: wrap;
-        	justify-content: flex-end;
-        	font-family:$font-stack-1;
-        	font-size: 70px;
-        	color: $text-orange-color;
-        	
-        }
-
-        .first-article p:nth-of-type(1){
-
-        	font-family:$font-stack-2;
-        	font-size: 30px;
-        	color: $text-dark-blue-color;
-        }
-        .first-article p:nth-of-type(2){
-
-        	font-family:$font-stack-2;
-        	font-size: 15px;
-        	color: $text-light-blue-color;
-        	padding: 10px 10px 10px 0;
-        }
-
-        .first-article p:nth-of-type(3){
-			
-			font-family:$font-stack-2;
-        	font-size: 15px;
-        	color: $text-white-color;
-        	line-height: 1.4;
-
-        }
-
-        .second-article p:first-child{
-			font-family:$font-stack-1;
-        	font-size: 40px;
-        	color: $text-orange-color;
-        	padding: 10px 10px 10px 0;
-
-        }
-
-        .second-article p span{
-			font-family:$font-stack-2;
-        	font-size: 38px;
-        	color: $text-yellow-color;
-
-        }
-
-        .second-article p:nth-of-type(2){
-			font-family:$font-stack-2;
-        	font-size: 30px;
-        	color: $text-dark-blue-color;
-
-        }
-
-   		.second-article p:nth-of-type(3){
-			font-family:$font-stack-2;
-        	font-size: 20px;
-        	color: $text-light-blue-color;
-        	padding: 15px 10px 15px 0;
-
-        }
-
-        .second-article p:last-child{
-			font-family:$font-stack-2;
-        	font-size: 15px;
-        	color: $text-white-color;
-        	line-height: 1.4;
-
-        }
-
-
-
-
-
-
     }
     .aside {
-        /*float: right;*/
-        display: flex;
-        flex-direction: column;
-
+        float: right;
         width: 447px / 1400px * 100%;
-        border: solid 1px #92ff71;
-        padding: 40px;
-
-        p{
-
-        	font-family: $font-stack-2;
-        	font-size: 20px;
-        	color: lighten($header-background , 10);
-        	padding-bottom: 10px;
-        }
-
-        li {
-		
-		padding: 10px 10px 10px 0;
-        }
-
-        a{
-		
-		text-decoration: none;
-    	font-family: $font-stack-2;
-        font-size: 20px;
-        color: $text-white-color;
-        
-        }
-        a span{
-		
-		color: $text-light-yellow-color;
-        
-        }
-
+        border-left: solid 2px grey;
+        padding: 51px;
     }
-     
+    
+}
 
- }
-
-/*.first-article > img{
+.first-article > img{
 	max-width:100%;
 	height: auto;
 }
@@ -182,14 +60,19 @@ body {
 .aside > img{
 	max-width:100%;
 	height: auto;
-}*/
+}
 
 
 // ..................header section
 
+header{
+	border-top: solid 8px $main-background;
+}
+
 .header-up{
 	background-color: $header-background;
 	display: flex;
+
 
 	.header-up-left{
 	margin-right: auto;
@@ -197,12 +80,10 @@ body {
     text-align: center;
     padding: 25px 50px;
 
-    
-
 		p{
 			font-family: $font-stack-2;
 			font-size: 30px;
-			font-weight: bolder;
+			font-weight: 900;
 			padding-bottom: 10px;
 			color: lighten($header-background, 20);
 			text-shadow: $text-shadow-header;
@@ -238,53 +119,59 @@ body {
 
 	cite{
 			color: white;
+    text-align: right;
+    display: block;
+    margin-right: 30px;
 		}
 
 	 }
 
 }
 
+// ............navigation here
+
 .main-nav{
-	display: flex;
 
 	ul {
 		display:flex;
 		width: 100%;
+
 	}
 
-	a{
-
-		text-decoration: none;
-	}
-
-	li {
-		flex:3;
+	a {
   		color: white;
-		// font-weight: 100;
-		letter-spacing: 2px;
-		padding:13px 5px;
-		width: 100%;
-		text-align: center;
-		font-family: $font-stack-1;
-		font-size: 30px;
+	    letter-spacing: 2px;
+	    font-family: $font-stack-1;
+	    font-size: 21px;
+	    text-decoration: none;
+		// padding: 5px 59px;
+		padding: 10px 30px; 
+		display: block;
+	}
+
+	li{
+	    text-align: center;
+	    margin: 0;
+	    padding: 0;
+	    width: 20%;  
 	}
 	
-	li:first-child{
+	li:first-child a{
 		background-color: $nav-green-color;
 		border-bottom: solid 7px $nav-blue-color;
 	}
 
-	li:nth-of-type(2){
+	li:nth-of-type(2) a{
 		background-color: $nav-yellow-color;
 		border-bottom: solid 7px $nav-green-color;
 	}
 	
-	li:nth-of-type(3){
+	li:nth-of-type(3) a{
 		background-color: $nav-orange-color;
 		border-bottom: solid 7px $nav-yellow-color;
 	}
 	
-	li:nth-of-type(4){
+	li:nth-of-type(4) a{
 		background-color: $nav-red-color;
 		border-bottom: solid 7px $nav-orange-color;
 	}
@@ -294,19 +181,76 @@ body {
 		border-bottom: solid 7px $nav-pink-color;
 	}
 
+	 li:nth-child(1n) a:hover,
+	 li:nth-child(1n) a:focus{
+		background-color: white;
+		color: black;
+	}
+
 }
 
 // .............................end of header
 
 
+// .............................footer start here
+
+footer{
+	background-color: $header-background;
+
+	ul {
+		display:flex;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	li {
+  		color: white;
+		letter-spacing: 2px;
+		padding:24px 5px 50px;
+		width: 100%;
+		text-align: center;
+		font-family: $font-stack-1;
+		font-size: 17px;
+	}
+
+}
+
+// .............................footer end here
+
+// .............................container start here
+
+.container{
+
+	.aside{
+		font-family: $font-stack-2;
+		font-style: italic;
+		font-weight: 800;
+		color:white;
+
+		p{
+			padding-bottom: 20px;
+			font-size: 19px;
+		}
+		
+		li{
+			margin-bottom: 23px;
+
+		}
+		a{
+			font-size: 24px;
+			text-decoration: none;
+			color: white;
+			line-height: 26px;
 
 
+			span{
+				color: #ffff00;
+			}
+		}
+		
 
 
-
-
-
-
-
+	}
+}
 
 
