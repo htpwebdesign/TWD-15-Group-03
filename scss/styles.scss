@@ -30,6 +30,8 @@ body {
 }
 
 .container {
+	display:flex;
+	flex-wrap: wrap;
 	width: 100%;
     height: auto;
     border: 1px solid #000;
@@ -38,13 +40,13 @@ body {
     background-color: #3b3b3b;
     
     .main-content {
-        float: left;
+        /*float: left;*/
         width: 953px / 1400px * 100%;
         border: solid 1px #fcb801;
         padding: 20px;
     }
     .aside {
-        float: right;
+        /*float: right;*/
         width: 447px / 1400px * 100%;
         border-left: solid 2px grey;
         padding: 51px;
