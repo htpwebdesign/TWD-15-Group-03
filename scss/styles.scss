@@ -60,6 +60,121 @@ body {
 }
 
 
+// ..................header section
+
+.header-up{
+	background-color: $header-background;
+	display: flex;
+
+	.header-up-left{
+	margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding: 25px 50px;
+
+    
+
+		p{
+			font-family: $font-stack-2;
+			font-size: 30px;
+			font-weight: bolder;
+			padding-bottom: 10px;
+			color: lighten($header-background, 20);
+			text-shadow: $text-shadow-header;
+		}
+
+		h1{
+			font-family: $font-stack-1;
+			font-size: 90px;
+			color: white;
+			font-weight: bold;
+			text-shadow: $text-shadow-header;
+		}
+
+	}
+
+	.quote{
+		    height: auto;
+    		margin-right: 61px;
+    		margin-top: 42px;
+
+	 q{
+		width: 30%;
+		padding: 35px 40px;
+		font-family: $font-stack-2;
+		font-size: 35px;
+		color: white;
+		line-height: 32px;
+
+		span{
+			padding-left: 99px;
+		}
+	}
+
+	cite{
+			color: white;
+		}
+
+	 }
+
+}
+
+.main-nav{
+	display: flex;
+
+	ul {
+		display:flex;
+		width: 100%;
+	}
+
+	li {
+  		flex:3;
+  		color: white;
+		// font-weight: 100;
+		letter-spacing: 2px;
+		padding:13px 5px;
+		width: 100%;
+		text-align: center;
+		font-family: $font-stack-1;
+		font-size: 30px;
+	}
+	
+	li:first-child{
+		background-color: $nav-green-color;
+		border-bottom: solid 7px $nav-blue-color;
+	}
+
+	li:nth-of-type(2){
+		background-color: $nav-yellow-color;
+		border-bottom: solid 7px $nav-green-color;
+	}
+	
+	li:nth-of-type(3){
+		background-color: $nav-orange-color;
+		border-bottom: solid 7px $nav-yellow-color;
+	}
+	
+	li:nth-of-type(4){
+		background-color: $nav-red-color;
+		border-bottom: solid 7px $nav-orange-color;
+	}
+
+	li:last-child{
+		background-color: $nav-blue-color;
+		border-bottom: solid 7px $nav-pink-color;
+	}
+
+}
+
+// .............................end of header
+
+
+
+
+
+
+
+
 
 
 
