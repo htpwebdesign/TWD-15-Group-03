@@ -11,10 +11,11 @@
 // ...............main and aside start here
 
 .container {
-	width: 100%;
+    
+    width: 100%;
     height: auto;
     overflow: auto;
-    padding: 30px;
+    padding: 20px;
     background-color: #3b3b3b;
     
 
@@ -32,6 +33,10 @@
 
 
 //............. article-01 starts here
+        .first-article{
+            padding-right: 30px
+
+        }
 
         .flex-font-01{
         	display: flex;
