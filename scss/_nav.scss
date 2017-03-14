@@ -26,35 +26,76 @@
 	    width: 20%;  
 	}
 	
+// .............first tab
+
 	li:first-child a{
 		background-color: $nav-green-color;
 		border-bottom: solid 7px $nav-blue-color;
 	}
 
+	li:first-child a:hover,
+	li:first-child a:focus{
+		border-bottom: solid 7px $border-light-green-color;
+	}
+
+// .............second tab
+
 	li:nth-of-type(2) a{
 		background-color: $nav-yellow-color;
 		border-bottom: solid 7px $nav-green-color;
+		color: $nav-blue-color;
 	}
 	
+	li:nth-child(2) a:hover,
+	li:nth-child(2) a:focus{
+		border-bottom: solid 7px $border-dark-yellow-color;
+	}
+
+// .............third tab
+
 	li:nth-of-type(3) a{
 		background-color: $nav-orange-color;
 		border-bottom: solid 7px $nav-yellow-color;
 	}
+
+	li:nth-child(3) a:hover,
+	li:nth-child(3) a:focus{
+		border-bottom: solid 7px $border-light-red-color;
+	}
+
+// .............fourth tab
 	
 	li:nth-of-type(4) a{
 		background-color: $nav-red-color;
 		border-bottom: solid 7px $nav-orange-color;
+		color:  $nav-yellow-color;
 	}
 
-	li:last-child{
+	li:nth-child(4) a:hover,
+	li:nth-child(4) a:focus{
+		border-bottom: solid 7px $border-morelight-red-color;
+	}
+
+
+// .............fifth tab
+
+	li:last-child a{
 		background-color: $nav-blue-color;
 		border-bottom: solid 7px $nav-pink-color;
 	}
 
+	li:last-child a:hover,
+	li:last-child a:focus{
+		border-bottom: solid 7px $border-light-blue-color;
+	}
+	
+	
+	
 	 li:nth-child(1n) a:hover,
 	 li:nth-child(1n) a:focus{
 		background-color: white;
 		color: black;
+
 	}
 
 }

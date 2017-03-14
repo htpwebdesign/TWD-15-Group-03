@@ -13,9 +13,21 @@ $header-background: #68857e;
 $text-shadow-header: 1px 2px 1px black;
 
 $nav-green-color: #80c342;
+$border-light-green-color: lighten($nav-green-color, 7); // 7% lighter
+
 $nav-yellow-color: #ffdd00;
+$border-dark-yellow-color: darken($nav-yellow-color, 5); // 5% darker
+
 $nav-orange-color: #f9a61a;
+$border-light-orange-color: lighten($nav-orange-color, 10); // 10% lighter
+
+
 $nav-red-color: #f15b42;
+$border-morelight-red-color: lighten($nav-red-color, 10); // 10% lighter
+$border-light-red-color: lighten($nav-red-color, 5); // 5% lighter
+
 $nav-blue-color: #00b7bf;
+$border-light-blue-color: lighten($nav-blue-color, 20); // 20% lighter
+
 $nav-pink-color: #f05a94;
 
