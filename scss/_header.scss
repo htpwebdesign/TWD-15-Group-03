@@ -18,7 +18,8 @@ header{
 		p{
 			font-family: $font-stack-2;
 			font-size: 30px;
-			font-weight: 900;
+			font-weight: bold;
+			font-style: italic;
 			padding-bottom: 10px;
 			color: lighten($header-background, 20);
 			text-shadow: $text-shadow-header;
@@ -26,7 +27,7 @@ header{
 
 		h1{
 			font-family: $font-stack-1;
-			font-size: 90px;
+			font-size: 80px;
 			color: white;
 			font-weight: bold;
 			text-shadow: $text-shadow-header;
@@ -41,16 +42,18 @@ header{
 
 	 q{
 		width: 30%;
-		padding: 35px 40px;
+		//padding: 35px 30px;
 		font-family: $font-stack-2;
-		font-size: 35px;
+		font-size: 26px;
+		font-weight: 500;
+		font-style: italic;
 		color: white;
 		line-height: 32px;
 
 		span{
-			padding-left: 99px;
+			padding-left: 50px;
 		}
-	}
+	  }
 
 	cite{
 			color: white;
