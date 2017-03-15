@@ -1,4 +1,174 @@
 //....................media query starts here
+@media only screen and (max-width: 1070px){
+
+	.wrapper{
+		max-width: 94%;
+	}
+
+	.header-up .header-up-left{
+		width: 50%;
+
+
+	   	p{
+			
+		    font-size: 25px;
+		}
+
+		h1{
+			
+			font-size: 65px;
+		 		
+		}
+	}
+	.quote{
+		margin-right: 15px;
+        margin-top: 39px;
+	}
+
+	.header-up .quote q{
+ 
+		line-height: 15px;
+		font-size: 23px;
+		
+		}
+	.header-up .quote cite{
+	
+            margin-right: 8px;
+		}
+
+	.main-nav{
+
+	ul {
+		
+		width: 100%;
+
+	}
+
+	a {
+  		font-size: 20px;
+  		letter-spacing: 1;
+	 	
+	}
+
+	li{
+	  
+	    width: 20%;  
+	}
+    }
+
+
+	.container {
+
+		.main-content {
+
+
+	        .first-article .flex-font-01{
+			
+			    font-size: 40px;
+	    	    justify-content: center;
+	        }
+	        .first-article .flex-font-02{
+
+	    	    font-size: 60px;
+	    	    justify-content: center;
+	    	    margin-bottom: 10px;
+	        }
+
+	        .first-article p:nth-of-type(1){
+				padding-top: 15px;
+	        	font-size: 25px;
+	            }
+
+	        .first-article p:nth-of-type(2){
+		    		
+			    font-size: 20px;
+
+	        }
+
+	        .second-article p:first-child{
+	        	
+	        	font-size: 30px;
+
+	        }
+
+	        .second-article p span{
+
+	        	font-size: 28px;
+	        }
+
+	       .second-article p:nth-of-type(2){
+				
+        		font-size: 20px;
+        		
+        }
+
+   		    .second-article p:nth-of-type(3){
+				
+        		font-size: 15px;
+        		
+        }
+
+	     }
+	    
+	}
+
+	//.container .main-content .aside{
+				
+			 	
+		
+
+	//	     p{
+	//		 	//padding-bottom: 16px;
+	//		 	font-size: 19px;
+	//		 	//color: #68857e;
+	//	     }
+		
+		     //li{
+			 //    margin-bottom: 23px;
+
+		     //}
+	//	     a{
+	//		 	font-size: 24px;
+				
+
+			 //span{
+			 	//color: #ffff00;
+			 //}
+	//	      }
+		
+	//    }
+
+
+	footer{
+		
+
+	//li {
+  	//	padding:24px 5px 50px;
+	//	width: 100%;
+	//	text-align: center;
+		
+		
+	//}
+	li{
+
+		padding-top: 40px;
+
+	}
+
+	a{
+		
+		font-size: 16px;
+		letter-spacing: 1;
+
+	}
+    }
+
+
+
+
+
+}
+
 
 @media only screen and (max-width: 895px){
 
@@ -141,7 +311,7 @@
 
 
 	footer{
-	
+		
 
 	//li {
   	//	padding:24px 5px 50px;
@@ -150,11 +320,17 @@
 		
 		
 	//}
+	li{
+
+		padding-top: 40px;
+
+	}
 
 	a{
 		
 		font-size: 15px;
 		letter-spacing: 0;
+
 	}
     }
 
