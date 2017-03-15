@@ -34,7 +34,9 @@
 
 //............. article-01 starts here
         .first-article{
-            padding-right: 30px
+            padding-right: 30px;
+
+
 
         }
 
@@ -61,13 +63,16 @@
         	font-family:$font-stack-2;
         	font-size: 30px;
         	color: $text-dark-blue-color;
+
         }
         .first-article p:nth-of-type(2){
 
         	font-family:$font-stack-2;
-        	font-size: 15px;
+        	font-size: 20px;
         	color: $text-light-blue-color;
         	padding: 10px 10px 10px 0;
+            line-height: 1.6;
+
         }
 
         .first-article p:nth-of-type(3){
@@ -75,7 +80,7 @@
 			font-family:$font-stack-2;
         	font-size: 15px;
         	color: $text-white-color;
-        	line-height: 1.4;
+        	line-height: 1.6;
 
         }
 
@@ -113,6 +118,7 @@
         	font-size: 20px;
         	color: $text-light-blue-color;
         	padding: 15px 10px 15px 0;
+            line-height: 1.6;
 
         }
 
@@ -120,7 +126,7 @@
 			font-family:$font-stack-2;
         	font-size: 15px;
         	color: $text-white-color;
-        	line-height: 1.4;
+        	line-height: 1.6;
 
         }
         /*end of article-02*/
