@@ -29,6 +29,7 @@
 		
 		.article {
 			width: 70%;
+            
 
 
 		}
@@ -37,10 +38,9 @@
 //............. article-01 starts here
         .first-article{
             padding-right: 30px;
-
-
-
-        }
+            height: auto;
+            overflow: hidden;
+                    }
 
         .flex-font-01{
         	display: flex;
@@ -86,6 +86,14 @@
 
         }
 
+        .first-article p:nth-of-type(4){
+            
+            font-family:$font-stack-2;
+            font-size: 15px;
+            color: $text-white-color;
+            line-height: 1.6;
+        }
+
 /*............end of article-01*/
 
 /*...............article-02*/
@@ -120,6 +128,14 @@
         	font-size: 20px;
         	color: $text-light-blue-color;
         	padding: 15px 10px 15px 0;
+            line-height: 1.6;
+
+        }
+
+        .second-article p:nth-of-type(4){
+            font-family:$font-stack-2;
+            font-size: 15px;
+            color: $text-white-color;
             line-height: 1.6;
 
         }
