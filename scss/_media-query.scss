@@ -1,4 +1,6 @@
 //....................media query starts here
+
+// ............................................max-width : 1160px
 @media only screen and (max-width: 1160px){
 	.wrapper {
 		max-width: 94%;
@@ -24,6 +26,9 @@
 
 	}
 }
+
+// ............................................max-width : 1070px
+
 @media only screen and (max-width: 1070px){
 
 	.header-up {
@@ -179,11 +184,9 @@
 	}
     }
 
-
-
-
-
 }
+
+// ............................................max-width : 995px
 
 @media only screen and (max-width: 995px){
 
@@ -245,6 +248,7 @@
 
 }
 
+// ............................................max-width : 895px
 
 @media only screen and (max-width: 895px){
 
@@ -358,43 +362,82 @@
 				
         		font-size: 20px;
         		
-        }
+        	}
 
    		    .second-article p:nth-of-type(3){
 				
         		font-size: 15px;
         		
-        }
+        	}
 
-	     }
+        	.aside{
+
+        		padding: 10px;
+				padding-bottom: 0;
+
+		    	p{
+			    	font-weight: 500;
+		    		padding-bottom: 20px;
+		    		font-size: 16px;
+		    		color: #68857e;
+		    	}
+
+		    	ul{
+			    	
+			    	li{
+
+			    		    margin-bottom: 12px
+			    	}
+
+					    a{
+						 	font-size: 16px;
+						 	line-height: 18px;
+					    }
+				
+				}
+
+				img{
+					    max-width: 100%;
+					}	
+
+	    	}
+
+	    }
 	    
 	}
 
-	.container{
+	
+
+
+	// .container{
 			
-		.main-content{
+	// 	.main-content{
 
-			.aside{
+	// 		.aside{
 			 	
-				padding: 10px;
-				padding-bottom: 0;
+	// 			padding: 10px;
+	// 			padding-bottom: 0;
 
-			    p{
-				 	font-size: 16px;
-				 
-			    }
+	// 		    ul{
+			    	
+	// 		    	li{
 
-			    a{
-				 	font-size: 15px;
-				 	line-height: 10px;
-			    }
+	// 		    		    margin-bottom: 12px
+	// 		    	}
 
-			    img{
-			      	max-width: 100%;
-			    }
-			}
-	    }
-	}
+	// 				    a{
+	// 					 	font-size: 16px;
+	// 					 	line-height: 18px;
+	// 				    }
+				
+	// 			}
+
+	// 			img{
+	// 				    max-width: 100%;
+	// 				}	
+	// 		}
+	//     }
+	// }
 
 
 	footer{
@@ -426,68 +469,31 @@
     }
 }
 
-// @media only screen and (max-width: 700px){
+// ............................................max-width : 790px
 
-// 	.header-up .header-up-left{
-// 		width: 50%;
+@media only screen and (max-width: 790px){
 
+	.container{
 
-// 	   	p{
-			
-// 		    font-size: 20px;
-// 		}
+		.main-content{
 
-// 		h1{
-			
-// 			font-size: 46px;
-		 		
-// 		}
-// 	}
-// 	.quote{
-// 		margin-right: 15px;
-//         margin-top: 39px;
-// 	}
+			.aside{
+				
+				p{
+					font-weight: 500;
+					padding-bottom: 20px;
+					font-size: 16px;
+					color: #68857e;
+				}
+			}
+		}
+	}
+}
 
-// 	.header-up .quote q{
- 
-// 		line-height: 15px;
-// 		font-size: 20px;
-		
-// 		}
-// 	.header-up .quote cite{
-	
-//             margin-right: 8px;
-// 		}
-
-// 	.main-nav{
-
-// 	ul {
-		
-// 		width: 100%;
-
-// 	}
-
-// 	a {
-//   		font-size: 18px;
-//   		letter-spacing: 0;
-	 	
-// 	}
-
-// 	li{
-	  
-// 	    width: 20%;  
-// 	}
-//     }
-
-
-
-// }
+// ............................................max-width : 650px
 
 @media only screen and (max-width: 650px){
-	
-	body {
 
-	}
 
 	.wrapper{
 		max-width: 100%;
@@ -511,8 +517,7 @@
 				
 				font-size: 35px;
 
-			 		
-			}
+			 }
 	}
 
 	.quote{
@@ -536,24 +541,25 @@
 		}
 	}
 }
+	
 	.main-nav{
 
-	ul {
-		
-		width: 100%;
+		ul {
+			
+			width: 100%;
 
-	}
+		}
 
-	a {
-  		font-size: 14px;
-  		letter-spacing: 0;
-	 	
-	}
+		a {
+	  		font-size: 14px;
+	  		letter-spacing: 0;
+		 	
+		}
 
-	li{
-	  
-	    width: 20%;  
-	}
+		li{
+		  
+		    width: 20%;  
+		}
     }
 
 
@@ -619,58 +625,53 @@
 	    
 	}
 
-	.container .main-content .aside{
-				
-			width: 100%;
-        	border-left: none;
-        	padding-left: 0;
-        	padding-right: 0;
-        	padding-bottom: 0;
-        	margin-bottom: 15px;
+	.container{
 
-		     p{
-			 	//padding-bottom: 16px;
-			 	text-align: center;
-			 	font-size: 10px;
-			 	padding-top: 10px;
-			 	border-top: 2px solid #68857e;
-			 	//color: #68857e;
-		     }
-			
-			ul{
-			     li{
-				     margin-bottom: 2px;
+		.main-content{
 
-			     }
-			     a{
-				 	font-size: 14px;
+			.aside{
 					
+				width: 100%;
+	        	border-left: none;
+	        	padding-left: 0;
+	        	padding-right: 0;
+	        	padding-bottom: 0;
+	        	margin-bottom: 15px;
 
-				 //span{
-				 	//color: #ffff00;
-				 //}
-			      }
+			     p{
+				 	//padding-bottom: 16px;
+				 	text-align: center;
+				 	font-size: 13px;
+				 	padding-top: 7px;
+				 	border-top: 2px solid #68857e;
+				 	//color: #68857e;
+			     }
+				
+				ul{
+				     li{
+					     margin-bottom: 2px;
+
+				     }
+
+				     a{
+					 	font-size: 14px;
+						line-height: 25px;
+				      }
+				}
+
+				.cropped-img{
+
+	    		margin: 0 auto;
+	    		margin-top: 10px;
+	    		
+	    		}
 			}
 
-			.cropped-img{
-
-    		margin: 0 auto;
-    		margin-top: 10px;
-    		
-    		}
+		}
 	}
 
-
 	footer{
-		
 
-	//li {
-  	//	padding:24px 5px 50px;
-	//	width: 100%;
-	//	text-align: center;
-		
-		
-	//}
 		li{
 
 			padding-top: 40px;
@@ -688,6 +689,8 @@
 
 }
 
+// ............................................max-width : 480px
+
 @media only screen and (max-width: 480px){
 	
 	body {
@@ -697,8 +700,6 @@
 	.wrapper{
 		max-width: 94%;
 	}
-
-	
 
 	.header-up {
 
@@ -724,56 +725,53 @@
 		}
 	}
 
-	.mobile_menu{
-		width: 30px;
-		height: 30px;
-		display: block;
-		margin-right: 13px;
-		margin-top: 35px;
-		cursor: pointer;
+		.mobile_menu{
+			width: 30px;
+			height: 30px;
+			display: block;
+			margin-right: 13px;
+			margin-top: 35px;
+			cursor: pointer;
 
+		}
+		.quote{
+			display: none;
+
+		}
 	}
-	.quote{
-		display: none;
-
-	}
-
-	
-}
 
 	.main-nav{
+
 		height: 0;
 		overflow: hidden;
-		-webkit-transition: height 0.3s ease;
-		transition: height 0.3s ease;	
+		-webkit-transition: height 0.4s ease;
+		transition: height 0.4s ease;	
+
+			ul {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+
+			}
+
+			li{
+			  	
+			    width: 100%;  
+			}
+
+			a {	
+
+		  		font-size: 13.5px;
+		  		letter-spacing: 0;
+		  		padding-top: 18px;
+		    	padding-bottom: 18px; 	
+			}
 		
-		.show-mobile-menu{
+			.show-mobile-menu &{
 
-			height: 360px;	
-
-		ul {
-			display: flex;
-			flex-direction: column;
-			width: 100%;
-
-		}
-
-		a {	
-
-	  		font-size: 13.5px;
-	  		letter-spacing: 0;
-	  		padding-top: 18px;
-	    	padding-bottom: 18px;
-	  		
-		 	
-		}
-
-		li{
-		  	
-		    width: 100%;  
-		}
-    }
-}
+			height: 280px;	
+    		}
+	}
 
 
 	.container {
