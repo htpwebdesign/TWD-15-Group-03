@@ -161,8 +161,8 @@
 
 	a{
 		
-		font-size: 16px;
-		letter-spacing: 1;
+		font-size: 17px;
+		letter-spacing: 0;
 
 	}
     }
@@ -324,6 +324,10 @@
 		
 		
 	//}
+	ul{
+
+		width: 100%
+	}
 	li{
 
 		padding-top: 40px;
@@ -332,7 +336,7 @@
 
 	a{
 		
-		font-size: 15px;
+		font-size: 16px;
 		letter-spacing: 0;
 
 	}
@@ -351,23 +355,194 @@
 	body {
 
 	}
+
+	.wrapper{
+		max-width: 100%;
+	}
+
 	
 
-	.container .main-content .article {
-			width: 100%;
+	.header-up .header-up-left{
+		width: 50%;
+		padding-left: 10px;
+
+	   	p{
+			
+		    font-size: 16px;
+		    padding-bottom: 2px;
 		}
 
-        .container .main-content .aside {   	        
+		h1{
+			
+			font-size: 35px;
 
-        	width: 100%;
+		 		
+		}
+	}
+	.header-up .quote{
+		margin-right: 10px;
+        margin-top: 39px;
+
+	}
+
+	.header-up .quote q{
+ 
+		line-height: 15px;
+		font-size: 15px;
+		}
+	.header-up .quote cite{
+	
+            margin-right: 5px;
+            font-size: 14px;
+		}
+
+	.main-nav{
+
+	ul {
+		
+		width: 100%;
+
+	}
+
+	a {
+  		font-size: 13.5px;
+  		letter-spacing: 0;
+	 	
+	}
+
+	li{
+	  
+	    width: 20%;  
+	}
+    }
+
+
+	.container {
+
+		.main-content {
+
+			.article {
+			width: 100%;
+			padding-left: 0;
+        	padding-right: 0;
+		    }
+			
+	        .first-article .flex-font-01{
+			
+			    font-size: 30px;
+	    	    justify-content: center;
+	        }
+	        .first-article .flex-font-02{
+
+	    	    font-size: 50px;
+	    	    justify-content: center;
+	    	    margin-bottom: 10px;
+	        }
+
+	        .first-article p:nth-of-type(1){
+				padding-top: 15px;
+	        	font-size: 20px;
+	            }
+
+	        .first-article p:nth-of-type(2){
+		    		
+			    font-size: 15px;
+
+	        }
+
+	        .second-article p:first-child{
+	        	
+	        	font-size: 25px;
+	        	border-top: 2px solid #68857e;
+	        	padding-top: 25px;
+
+	        }
+
+	        .second-article p span{
+
+	        	font-size: 23px;
+	        }
+
+	       .second-article p:nth-of-type(2){
+				
+        		font-size: 20px;
+        		
+            }
+
+   		    .second-article p:nth-of-type(3){
+				
+        		font-size: 15px;
+        		
+            }
+
+	     }
+	    
+	}
+
+	.container .main-content .aside{
+				
+			width: 100%;
         	border-left: none;
-    	}
+        	padding-left: 0;
+        	padding-right: 0;
+        	padding-bottom: 0;
+        	margin-bottom: 15px;
 
-    	.cropped-img{
+        	.cropped-img{
 
     		margin: 0 auto;
     		
-    		
-    	}
+    		}
+		
+
+		     p{
+			 	//padding-bottom: 16px;
+			 	text-align: center;
+			 	font-size: 14px;
+			 	padding-top: 10px;
+			 	border-top: 2px solid #68857e;
+			 	//color: #68857e;
+		     }
+		
+		     li{
+			     margin-bottom: 2px;
+
+		     }
+		     a{
+			 	font-size: 14px;
+				
+
+			 //span{
+			 	//color: #ffff00;
+			 //}
+		      }
+		
+	    }
+
+
+	footer{
+		
+
+	//li {
+  	//	padding:24px 5px 50px;
+	//	width: 100%;
+	//	text-align: center;
+		
+		
+	//}
+		li{
+
+			padding-top: 40px;
+
+		}
+
+		a{
+		
+			font-size: 14px;
+			letter-spacing: 0;
+
+		}
+    }
+
 
 }
