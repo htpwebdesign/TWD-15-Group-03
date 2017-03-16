@@ -1,9 +1,13 @@
 //....................media query starts here
-@media only screen and (max-width: 1070px){
-
-	.wrapper{
+@media only screen and (max-width: 1160px){
+	.wrapper {
 		max-width: 94%;
 	}
+}
+
+
+
+@media only screen and (max-width: 1070px){
 
 	.header-up .header-up-left{
 		width: 50%;
