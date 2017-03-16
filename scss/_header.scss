@@ -8,21 +8,26 @@ header{
 	background-color: $header-background;
 	display: flex;
 
-
+	.mobile_menu{
+		display: none;
+	}
 	.header-up-left{
-	margin-right: auto;
-    width: 50%;
-    text-align: center;
-    padding: 25px 50px;
+		margin-right: auto;
+	    width: 65%;
+	    text-align: center;
+	    padding: 25px 50px;
 
 		p{
-			font-family: $font-stack-2;
-			font-size: 30px;
-			font-weight: bold;
-			font-style: italic;
-			padding-bottom: 10px;
-			color: lighten($header-background, 20);
-			text-shadow: $text-shadow-header;
+			font-family: "Exo 2", Exo, sans-serif;
+		    font-size: 32px;
+		    font-weight: bold;
+		    font-style: italic;
+		    padding-bottom: 1px;
+		    color: #9fb4af;
+		    text-shadow: 1px 2px 1px black;
+		    width: 100%;
+    		margin: 0 auto;
+    		text-align: center;
 		}
 
 		h1{
@@ -40,27 +45,33 @@ header{
     		margin-right: 55px;
     		margin-top: 42px;
 
-	 q{
+	q{
 		width: 30%;
 		//padding: 35px 30px;
 		font-family: $font-stack-2;
-		font-size: 26px;
+		font-size: 28px;
 		font-weight: 500;
 		font-style: italic;
 		letter-spacing: 1px;
 		color: white;
-		line-height: 32px;
+		
 
 		span{
 			padding-left: 50px;
+			line-height: 27px;
+			
 		}
 	  }
 
 	cite{
-			color: white;
-    text-align: right;
-    display: block;
-    margin-right: 30px;
+		color: white;
+	    text-align: right;
+	    display: block;
+	    margin-right: 30px;
+	    font-family: $font-stack-2;
+	    font-style: italic;
+	    letter-spacing: 2px;
+	    padding-top: 10px;
 		}
 
 	 }
